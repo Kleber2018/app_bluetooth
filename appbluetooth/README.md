@@ -35,16 +35,20 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## ENVIRONMENT
+https://efficient-sloth-d85.notion.site/Instalando-Expo-9b0abcb12bd548278e042d00fbde67f2
 
-## Join the community
+Com essas ferramentas, basta você instalar a CLI do Expo globalmente pelo npm (ou Yarn, o que você preferir): NPM npm install -g expo-cli Yarn yarn global add expo-cli Para verificar se a instalação ocorreu com sucesso, execute o comando abaixo: Instalando bibliotecas terceiras
 
-Join our community of developers creating universal apps.
+No lugar de npm sempre execute expo por exemplo: npm i @expo-google-fonts/inter
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Executando projeto: expo start
+
+Build
+eas build --platform android
+
+
+teste device 
+npx expo start
